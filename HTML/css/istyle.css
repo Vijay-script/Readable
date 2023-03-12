@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(240, 190, 83);
+    text-align: justify;
+    line-height:1.5em;
+   border-radius:20px;
+    border: 5px 2px 3px 4px;
+    border-style: double ;
+      
+}
+h1{
+    color: green;
+    text-align:center;
+}
+
+.he{
+    color:red;
+    font-weight: bolder;
+    text-decoration: underline  rgb(7, 23, 247);
+}
+a:visited
+{
+    color: rgb(70, 4, 223);
+}
+a:link
+{
+    color: rgb(255, 0, 140);
+}
+a:active{
+    color: rgb(238, 138, 16);
+}
+a:hover
+{
+    color: rgb(231, 18, 142);
+}
+#siva
+{
+    text-indent:2em ;
+    text-transform:capitalize;
+    
+}
+#siva:first-letter{
+    font-size: 1.5em;
+    font-style: italic;
+}
+.fig{
+    color:rgb(182, 14, 248);
+}
+#audio{
+    color: green;
+}
+#kavethai
+{
+    color: green;
+}
+.align{
+    text-align:right;
+    margin-right: 20px;
+}
+h3
+{
+    text-align:left;
+}

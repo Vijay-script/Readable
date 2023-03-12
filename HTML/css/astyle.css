@@ -1,0 +1,39 @@
+body{
+    background-color: rgba(199, 211, 29, 0.8);
+    border: 3px solid red;
+    border-radius:20px;
+}
+.he{
+    color: brown;
+}
+.italic{
+    text-decoration: underline;
+}
+#h1{
+    color: rgb(238, 17, 138);
+    border:2px double rgb(8, 31, 238);
+    border-radius: 20px;
+    width:80%;
+    padding-left: 60px;
+    text-align: center;
+}
+a:visited
+{
+    color: rgb(55, 9, 221);
+}
+a:link
+{
+    color: rgb(12, 223, 82);
+}
+a:active{
+    color: rgb(238, 138, 16);
+}
+a:hover
+{
+    color: rgb(231, 18, 142);
+}
+.align{
+    text-align: right;
+    margin-right: 20px;
+}
+

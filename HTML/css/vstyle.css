@@ -1,0 +1,33 @@
+body{
+    text-align:center;
+    background-color: rgb(230, 235, 161);
+    line-height: 1.5em;
+}
+.align{
+    text-align: right;
+}
+a:visited{
+    color: rgb(150, 13, 88);
+}
+a:link{
+    color: black;
+}
+a:active{
+    color: rgb(230, 44, 11);
+}
+a:hover{
+    color: rgb(230, 44, 11);
+}
+.login{
+    text-transform: uppercase;
+    color:blue
+}
+#file{
+    color: blue;
+}
+h5{
+    color: red;
+}
+#submit{
+    text-align:left;
+}
