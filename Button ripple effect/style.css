@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: cursive;
+  
+}
+#button{
+    background-color: rgb(243, 133, 8);
+    opacity: .9;
+    width: 400px;
+    height: 400px;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    box-shadow: 0 4px 8px rgb(68, 0, 255);
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+#submit{
+    cursor: pointer;
+    font-size: 2em;
+    color:black;
+    /*border: 3px solid red;*/
+    text-decoration: none;
+}
+#submit:hover{
+    color: rgb(15, 187, 30);
+
+}
+#submit::before{
+    content:"vijayaragavan";
+    color: blue;
+    position: absolute;
+    background-color: aquamarine;
+    width: 0px;
+    height: 0px;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    transition: width .9s,height .9s;
+    
+}
+#submit:hover::before{
+    width: 300px;
+    height: 300px;
+   
+}
+#submit span{
+    position: relative;
+    z-index: 1;
+    
+}
+
+
+
+
+/*#submit:hover::before{
+    color: rgb(15, 187, 30);
+    content: "";
+    position: absolute;
+    width: 400px;
+    height: 400px;
+}*/
