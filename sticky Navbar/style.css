@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+}
+#center-content{
+
+     margin-top: px;
+    height:100vh;
+    background-image: url("https://images.unsplash.com/photo-1646510352470-8058c608c43b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGtleWJvcmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    padding: 5px 10px 5px 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(155, 58, 134);
+    box-shadow: 5px 10px 15px rgb(54, 15, 230);
+}
+
+.content{
+    margin: 40px 5%;
+    font-family: cursive;
+}
+#myname{
+    display: flex;
+    position: fixed;
+   background-color:rgb(160, 136, 136);
+   width: 100%;
+   align-items: center;
+  
+    justify-content: space-between;
+    transition:background-color 1s;
+   
+}
+
+#myname ul{
+    display: flex;
+    list-style-type:none ;
+    text-decoration: none;
+    
+}
+#myname ul li a{
+    text-decoration: none;
+    margin: 0px 10px ;
+    color: rgb(10, 10, 10);
+}
+#myname ul li a:hover{
+   color: blue;
+}
+#myname.color{
+    background-color: rgb(20, 2, 2);
+}
